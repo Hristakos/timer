@@ -25,6 +25,7 @@ let handleStart = function () {
 let handleReset = function () {
     clearInterval(timerId);
     displayTimer.textContent = 0;
+    seconds = 0;
     timerId = null;
 }
 
